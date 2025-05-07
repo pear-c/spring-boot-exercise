@@ -1,4 +1,4 @@
-package com.example.spring_boot_exercise.cooking;
+package com.example.cooking;
 
 import org.springframework.stereotype.Component;
 

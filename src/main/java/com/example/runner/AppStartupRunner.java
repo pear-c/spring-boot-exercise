@@ -1,8 +1,8 @@
-package com.example.spring_boot_exercise.runner;
+package com.example.runner;
 
-import com.example.spring_boot_exercise.cooking.ChefBean;
-import com.example.spring_boot_exercise.delivery.DeliveryServiceBean;
-import com.example.spring_boot_exercise.order.OrderProcessorBean;
+import com.example.cooking.ChefBean;
+import com.example.delivery.DeliveryServiceBean;
+import com.example.order.OrderProcessorBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;

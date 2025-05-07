@@ -1,6 +1,6 @@
-package com.example.spring_boot_exercise.config;
+package com.example.config;
 
-import com.example.spring_boot_exercise.runner.AppStartupRunner;
+import com.example.runner.AppStartupRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

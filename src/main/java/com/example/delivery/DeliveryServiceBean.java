@@ -1,4 +1,4 @@
-package com.example.spring_boot_exercise.delivery;
+package com.example.delivery;
 
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package com.example.spring_boot_exercise.order;
+package com.example.order;
 
 import org.springframework.stereotype.Component;
 
