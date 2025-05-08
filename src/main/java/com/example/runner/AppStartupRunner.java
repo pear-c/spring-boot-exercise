@@ -6,14 +6,16 @@ import com.example.order.OrderProcessorBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
+import org.springframework.stereotype.Component;
 
+@Component
 public class AppStartupRunner implements ApplicationRunner {
 
     @Autowired
     private OrderProcessorBean orderProcessorBean;
+
     private ChefBean chefBean;
     private DeliveryServiceBean deliveryServiceBean;
-
     @Autowired
     public void setChefBean(ChefBean chefBean) {
         this.chefBean = chefBean;
